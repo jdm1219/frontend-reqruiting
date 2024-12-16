@@ -29,6 +29,7 @@ const clearModel = () => {
         v-model="model"
       />
       <i
+        v-if="model"
         class="absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer"
         @click="clearModel"
       >
